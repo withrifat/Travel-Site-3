@@ -1,0 +1,72 @@
+/* --------------------footer part---------------- */
+@media (max-width: 1024px) {
+    .footer_widget {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  
+    .footer_widget .fws {
+      width: 100%;
+      align-items: flex-start;
+    }
+  
+    .footer_widget .input_sus {
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus input[type="email"] {
+      min-width: unset;
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus button {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      background-position: bottom center;
+      background-size: cover;
+      padding: 1.5rem;
+    }
+  
+    .copirite p {
+      font-size: 14px;
+      padding: 1rem;
+    }
+  
+    .footer_widget {
+      padding: 1rem 0.5rem;
+    }
+  
+    .footer_widget .input_sus {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .footer_widget .input_sus input[type="email"],
+    .footer_widget .input_sus button {
+      width: 100%;
+    }
+  
+    .footer_widget .input_sus button {
+      margin-top: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer_widget .fws img {
+      width: 7rem;
+    }
+  
+    .footer_widget {
+      gap: 1.5rem;
+    }
+  
+    .copirite p {
+      font-size: 13px;
+    }
+  }
+  
