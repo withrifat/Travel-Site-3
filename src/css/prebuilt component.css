@@ -33,7 +33,7 @@
   .sub_title{
     color: var(--orange);
     font-weight: 700;
-    margin-bottom: .2rem;
+    margin-bottom: .1rem;
   }
   html {
     scroll-behavior: smooth;
