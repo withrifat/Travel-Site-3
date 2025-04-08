@@ -308,12 +308,62 @@
   gap: 2rem;
   margin: 0 auto;
 }
+/* ----------------Our best Services-------------------------- */
+.service-area {
+  padding: 110px 0 170px;
+  text-align: center;
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+.service-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 63px;
+  grid-row-gap: 30px;
+  margin-top: 20px;
+}
+.service-info {
+  h4 {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 12px;
+  }
+  p {
+    color: var(--gray2);
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+.service-item {
+  padding: 35px;
+  border-radius: 36px;
+  background: var(--white, #FFF);
+  transition: .5s;
+  position: relative;
+}
+.service-item:hover {
+  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
+}
+.service-item:nth-child(2) {
+  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
+}
+.service-item:nth-child(2):before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: url("image/s\ orange.png");
+  position: absolute;
+  bottom: -34px;
+  left: -39px;
+  z-index: -111;
+}
 /* ------------Promotion Section------------------- */
-
 .promotion {
   margin: 3rem auto;
 }
-
 .promotion_bg {
   max-width: 1920px;
   height: 768px;

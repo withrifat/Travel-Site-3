@@ -22,6 +22,18 @@
   .container{
     margin: o auto;
   }
+  .vol_h1{
+    color: var(--black);
+    font-family: var(--font-volkhov);
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .sub_title{
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: .2rem;
+  }
   html {
     scroll-behavior: smooth;
     line-height: 1.15;
