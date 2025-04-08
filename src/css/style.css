@@ -553,29 +553,33 @@
   }
 }
 
-/* holiday-area  */
+/* -----------------------holiday-area------------------------  */
 .holiday-area {
   padding: 138px 0;
   margin: 81px 0 170px;
-  background: url('img/hodiday.png') center /cover no-repeat;
+  background: url('image/holyday.png') center /cover no-repeat;
 }
 
 .holiday-title {
   padding-left: 266px;
+  max-width: 1200px;
+  margin: 0 auto;
 
-  h3 {
+  h1 {
     color: var(--white);
     margin: 0;
+    font-family: "Volkhov", serif;
     position: relative;
     display: inline-block;
+    margin-left: 2rem;
   }
 }
 
-.holiday-title h3:after {
+.holiday-title h1:after {
   content: "";
   width: 312px;
   height: 40px;
-  background: url('img/holyday2.png') center no-repeat;
+  background: url('image/holyday2.png') center no-repeat;
   position: absolute;
   bottom: -38px;
   right: -92px;
