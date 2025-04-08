@@ -14,54 +14,78 @@
 <body>
     <!-- -----------Hero Section ------------------------------ -->
     <!--Header Sections-->
-    <section class="home">
-        <header>
-            <div class="logo_img">
-                <img src="src/css/image/logo.png" alt="logo">
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a>
-                  <!-- Dropdown Menu -->
-                  <div class="dropdown">
-                    <a href="#">Honeymoon Package</a>
-                    <a href="#">Tours Packages</a>
-                    <a href="#">Musical Events</a>
-                    <a href="#">Build Package</a>
-                  </div>
-                </li>
-                <li><a href="#">Upcomming Packages</a></li>
-              </ul>
-            <button>Get in Touch</button>
-        </header>
-        <div class="hero">
-            <div class="hero_core">
-                <img src="src/css/image/Vector 1.png" alt="">
-                <h1>No matte where <br> 
-                    you're going to, we'll <br>
-                    take you there</h1>
-                    <!-- destination select section -->
-            <div class="selection">
-                <div>Where to ?</div>
-                <div>
-                    Travel type
-                    <img src="src/css/image/Vector.png" alt="">
-                </div>
-                <div>
-                    Duration
-                    <img src="src/css/image/Vector.png" alt="">
-                </div>
-                <button>Submit</button>
-            </div>
-            <!-- 24 hour our customer -->
-            <div class="customer_icon">
-                <img src="src/css/image/Group 81.png 81.png" alt="">
-                <p>2,500 people booked Tommorowland Event in last 24 hours</p>
-            </div>
-           </div>
-        </div>
-    </section>
+	<header class="header-area">
+		<div class="container">
+			<div class="header_inner">
+				<div class="logo">
+					<a href="index.html">
+						<img src="src/css/image/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="nav_items">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services <i class="fa-solid fa-caret-down"></i></a>
+							<div class="mega-menu">
+								<ul>
+									<li><a href="#">Honeymoon Packages</a></li>
+									<li><a href="#">Tours Packages</a></li>
+									<li><a href="#">Musical Events</a></li>
+									<li><a href="#">Build Package</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">Upcomming Packages</a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+				<div class="nav-right">
+					<a href="#">Get in Touch</a>
+				</div>
+				<div class="menu-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="hero-area">
+		<div class="container">
+			<div class="hero-wrapper">
+				<div class="hero-title">
+					<h2>No matter where <br> you’re going to, we’ll <br> take you there</h2>
+				</div>
+				<div class="heroBtn-wrap">
+					<div class="heroBtn-item">
+						<span>Where to?</span>
+					</div>
+					<div class="heroBtn-item">
+						<select name="travel" id="">
+							<option value="travel">Travel Type</option>
+							<option value="travel">Travel Type</option>
+							<option value="travel">Travel Type</option>
+						</select>
+					</div>
+					<div class="heroBtn-item">
+						<select name="duration" id="">
+							<option value="duration">Duration</option>
+							<option value="duration">Duration</option>
+							<option value="duration">Duration</option>
+						</select>
+					</div>
+					<div class="heroBtn-item">
+						<input type="submit" value="submit">
+					</div>
+				</div>
+				<div class="hero-profile">
+					<a href="#"><img src="src/css/image/Group 81.png" alt="profile"></a>
+					<span>2,500 people booked Tommorowland Event in last 24 hours</span>
+				</div>
+			</div>
+		</div>
+	</section>
     <!-- End of Hero Section -->
 <!-- -------------------Our Travels Partner------------------------------- -->
  <section class="travel_partner">
