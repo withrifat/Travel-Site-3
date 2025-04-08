@@ -171,6 +171,22 @@ ul {
     width: 5rem;
     padding: 5px;
 }
+/* --------------------Our flight partner------------------ */
+.travel_partner{
+  background-color: var(--light);
+
+
+
+}
+.travel{
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+  margin: 0 auto;
+}
 /* ------------Promotion Section------------------- */
 
 .promotion {
