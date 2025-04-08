@@ -675,6 +675,123 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* -----------------Top Trand's Tour pakage's ----------------------- */
+.trendy-area {
+  margin-bottom: 110px;
+  max-width: 1409px;
+  margin: 2rem auto;
+}
+
+.trendy-title {
+  text-align: center;
+  margin-bottom: 52px;
+
+  h3 {
+    margin: 12px 0 0;
+  }
+}
+
+.trendy-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 100px;
+}
+
+.trendy-body {
+  .trendy-thumb {
+    margin-top: -64px;
+    margin-left: 6px;
+  }
+
+  .trendy-info {
+    margin-top: -36px;
+
+    span {
+      color: var(--gray3);
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    span:last-child {
+      margin-left: 40px;
+    }
+
+    img {
+      vertical-align: sub;
+      margin-right: 8px;
+    }
+  }
+
+  .trendy-place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      color: var(--black2);
+      font-size: 30px;
+      font-weight: 700;
+      margin: 12px 0;
+    }
+  }
+
+  .trendy-map {
+    img {
+      vertical-align: middle;
+    }
+
+    span {
+      color: var(--gray3);
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .trendy-text {
+    button {
+      background-color: var(--orange);
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: .5rem;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #BF5A47;
+      }
+    }
+
+    h4 {
+      color: #DF6951;
+      font-size: 30px;
+      font-weight: 500;
+      padding: 12px 0;
+
+      span {
+        color: #7D7D7D;
+        font-size: 22px;
+        font-weight: 500;
+        padding-left: 20px;
+      }
+    }
+
+    p {
+      color: var(--black);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.9;
+      margin-bottom: 40px;
+    }
+
+    a {
+      padding: 8px 42px 15px 14px;
+      font-size: 12.771px;
+      font-weight: 600;
+    }
+  }
+}
 
 /* ------------Promotion Section------------------- */
 .promotion {
