@@ -646,7 +646,35 @@
     }
   }
 }
+/* ------------Explore Section------------------- */
+.explore-wrapper {
+  margin-bottom: 112px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
+  .explore-left,
+  .explore-right {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 124px 0 100px;
+    min-height: 300px;
+  }
+
+  .explore-left {
+    background-image: url('image/Explore Nature.png');
+  }
+
+  .explore-right {
+    background-image: url('image/Explore Cities.png');
+  }
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* ------------Promotion Section------------------- */
 .promotion {
