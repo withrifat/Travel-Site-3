@@ -20,6 +20,7 @@
     --fw-700: 700;
   }
   .container{
+    max-width: 1400px;
     margin: o auto;
   }
   .vol_h1{

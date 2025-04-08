@@ -360,6 +360,227 @@
   left: -39px;
   z-index: -111;
 }
+/* ----------Honemoon Speacial Destionation section ----- */
+/* honymoon start  */
+.honymoon-area {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.honymoon-right {
+  p {
+    color: var(--black2);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0 32px;
+  }
+}
+.honymoon-wrapper{
+  display: flex;
+  gap: 2rem;
+  margin: 0 auto;
+
+}
+.honymoon-content{
+  display: flex;
+  flex-direction: column;
+
+  button {
+    background-color: var(--orange);
+    color: white;
+    width: 40%;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #BF5A47;
+    }
+  }
+}
+.honymoon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 122px;
+}
+
+/* resort-area */
+.resort-area {
+  overflow: hidden;
+  margin-top: -50px;
+  margin: 3rem auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.resort-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 46px;
+  gap: 3rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+
+}
+
+.resort-content {
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  gap: 50px 20px;
+  max-width: 392px;
+  width: 100%;
+  align-items: center;
+  margin-top: 31px;
+
+  h4 {
+    color: var(--gray2);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  p {
+    color: var(--gray2);
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.resort-cart {
+  padding: 20px 24px;
+  max-width: 370px;
+  width: 100%;
+  border-radius: 26px;
+  background: var(--white);
+  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
+  position: relative;
+
+  h4 {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 26px 0 12px;
+  }
+
+  p {
+    color: var(--gray3);
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .resort-thump {
+    margin: 21px 0;
+
+    img {
+      margin-right: 18px;
+    }
+  }
+
+  .resort-people {
+    display: grid;
+    grid-template-columns: .3fr 2fr .5fr;
+
+    a:last-child {
+      text-align: right;
+    }
+  }
+
+}
+
+.resort-right {
+  position: relative;
+  z-index: 0;
+  margin-left: 200px;
+}
+
+.resort-right:before {
+  content: "";
+  background: url(image/resort0.png) no-repeat;
+  background-position: 38% 0%;
+  background-size: cover;
+  width: 469px;
+  height: 600px;
+  position: absolute;
+  bottom: -86px;
+  left: -129px;
+  z-index: -1;
+}
+
+.resort-right:after {
+  content: "";
+  background: url(image/resort.png) center/cover no-repeat;
+  width: 315px;
+  height: 362px;
+  position: absolute;
+  top: -153px;
+  right: -259px;
+  top: -37%;
+  right: -57%;
+  z-index: -2;
+}
+
+.resort-trip {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  position: absolute;
+  background: var(--white);
+  max-width: 264px;
+  width: 100%;
+  padding: 16px;
+  right: -29%;
+  bottom: 12%;
+  border-radius: 18px;
+  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
+
+  h4 {
+    margin: 8px 0 14px;
+  }
+
+  h5 {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+
+    span {
+      color: var(--orange)
+    }
+  }
+}
+
+/* holiday-area  */
+.holiday-area {
+  padding: 138px 0;
+  margin: 81px 0 170px;
+  background: url('img/hodiday.png') center /cover no-repeat;
+}
+
+.holiday-title {
+  padding-left: 266px;
+
+  h3 {
+    color: var(--white);
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+}
+
+.holiday-title h3:after {
+  content: "";
+  width: 312px;
+  height: 40px;
+  background: url('img/holyday2.png') center no-repeat;
+  position: absolute;
+  bottom: -38px;
+  right: -92px;
+}
+
 /* ------------Promotion Section------------------- */
 .promotion {
   margin: 3rem auto;
@@ -400,7 +621,7 @@
   background: #fff;
   border-radius: 1rem;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
-  position: relative; /* IMPORTANT: Makes image position relative to this */
+  position: relative; 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
