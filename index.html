@@ -10,6 +10,8 @@
     <!-- fontawasom icon -->
     <script src="https://kit.fontawesome.com/a2202ca0f6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="src/css/image/fav icon.png" type="image/x-icon">
+	<!-- Add AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>
         Travel | Site
     </title>
@@ -84,15 +86,19 @@
 					<div class="heroBtn-item">
 						<select name="travel" id="">
 							<option value="travel">Travel Type</option>
-							<option value="travel">Travel Type</option>
-							<option value="travel">Travel Type</option>
+							<option value="travel">Solo Traveling</option>
+							<option value="travel">Duo Traveling</option>
+							<option value="travel">Family Travel</option>
+							<option value="travel">Business Travel</option>
 						</select>
 					</div>
 					<div class="heroBtn-item">
 						<select name="duration" id="">
 							<option value="duration">Duration</option>
-							<option value="duration">Duration</option>
-							<option value="duration">Duration</option>
+							<option value="duration">East</option>
+							<option value="duration">West</option>
+							<option value="duration">North</option>
+							<option value="duration">South</option>							
 						</select>
 					</div>
 					<div class="heroBtn-item">
@@ -228,30 +234,7 @@
             </div>
             <div class="resort-right">
                 <div class="resort-cart">
-                    <img class="img-fluid" src="src/css/image/resort2.png" alt="">
-                    <h4>Trip to Hawaii </h4>
-                    <p> 14-29 June <span> </span> by JR Martinax</p>
-                    <div class="resort-thump">
-                        <a href="#"><img src="src/css/image/resort4.png" alt=""></a>
-                        <a href="#"><img src="src/css/image/resort5.png" alt=""></a>
-                        <a href="#"><img src="src/css/image/resort6.png" alt=""></a>
-                    </div>
-                    <div class="resort-people">
-                        <a href="#"><img src="src/css/image/resort7.png" alt=""></a>
-                        <p>60 people are interested</p>
-                        <a href="#"><img src="src/css/image/resort8.png" alt=""></a>
-                    </div>
-                    <div class="resort-trip">
-                        <div class="trip-icon">
-                            <img src="src/css/image/resort3.png" alt="">
-                        </div>
-                        <div class="trip-info">
-                            <p>Ongoing</p>
-                            <h4>Trip to rome</h4>
-                            <h5><span>40% </span> completed</h5>
-                            <img class="img-fluid" src="src/css/image/resort-trip.png" alt="resort">
-                        </div>
-                    </div>
+					<img src="src/css/image/resort booking.png" alt="">
                 </div>
             </div>
         </div>
@@ -503,5 +486,16 @@
     </footer>
 
     <script src="src/main.js"></script>
+	<!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- =========== link aos script ===================== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+
 </body>
 </html>

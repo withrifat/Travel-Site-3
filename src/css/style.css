@@ -1,6 +1,5 @@
 
   /* ----------------------------Header Section ------------------------------- */
-  /* Header Section */
   .header-area {
     position: absolute;
     width: 100%;
@@ -10,35 +9,28 @@
       max-width: 1350px;
     }
   }
-  
   .header_inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
   .logo img {
     width: 120px;
     transition: 0.2s;
   }
-  
   .logo img:hover {
     opacity: 0.8;
   }
-  
   .nav_items ul {
     display: flex;
     align-items: center;
   }
-  
   .nav_items {
     margin-right: -100px;
   }
-  
   .nav_items ul li {
     position: relative;
   }
-  
   .nav_items ul li a {
     color: #FFF;
     font-size: 17px;
@@ -51,7 +43,6 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
   }
-  
   .nav_items ul li a:after {
     content: "";
     width: 0%;
@@ -68,23 +59,19 @@
     -ms-transition: .5s;
     -o-transition: .5s;
   }
-  
   .nav_items ul li a:hover:after {
     width: 72%;
     opacity: 1;
     visibility: visible;
   }
-  
   .nav_items ul li i {
     font-size: 20px;
     margin-left: 6px;
     vertical-align: middle;
   }
-  
   .nav_items ul li a:hover {
     color: var(--gray)
   }
-  
   .mega-menu {
     width: 192px;
     padding: 20px 16px;
@@ -101,7 +88,6 @@
     -ms-transition: .5s;
     -o-transition: .5s;
   }
-  
   .mega-menu:before {
     content: '';
     width: 0px;
@@ -113,17 +99,14 @@
     transform: rotate(-90deg);
     top: -20px;
   }
-  
   .nav_items ul li:hover .mega-menu {
     top: 40px;
     opacity: 1;
     visibility: visible;
   }
-  
   .mega-menu ul {
     display: block;
   }
-  
   .mega-menu ul li a {
     color: #FFF;
     font-size: 14px;
@@ -133,11 +116,9 @@
     padding-left: 0;
     margin: 0;
   }
-  
   .mega-menu ul li:first-child a {
     padding-top: 0;
   }
-  
   .nav-right a {
     color: var(--white);
     font-size: 17px;
@@ -152,8 +133,6 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
   }
-  
-  /* MOBIL-MENU-START*/
   .sidebar-menu {
     backdrop-filter: blur(15px);
     width: 250px;
@@ -168,31 +147,25 @@
     z-index: 20;
     display: none;
   }
-  
   .menu-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
   .sidebar-menu::-webkit-scrollbar {
     width: 0px;
   }
-  
   .sidebar-menu.active {
     left: 0;
   }
-  
   .sidebar-menu .menu-wrap {
     width: 100%;
     margin-top: 20px;
   }
-  
   .sidebar-menu .menu-wrap .menu-item {
     position: relative;
     cursor: pointer;
   }
-  
   .sidebar-menu .menu-wrap .menu-item a {
     font-size: 16px;
     font-weight: 500;
@@ -202,7 +175,6 @@
     text-transform: capitalize;
     transition: 0.2s;
   }
-  
   .sidebar-menu .menu-wrap .menu-item a:hover {
     background-color: #3B82F6;
     color: #ffffff;
@@ -255,15 +227,12 @@
     border-radius: 10px;
     margin: 5px 0 0 0;
   }
-  
   .mobil-brand img {
     max-width: 140px;
   }
-  
   /*==== sticky-nev start=== */
   .fixed-menu {
     background: #ffffff;
-    /* position: fixed; */
     top: 0;
     animation: slide-down 0.5s !important;
     left: 0;
@@ -272,11 +241,9 @@
     z-index: 250;
     transition: .10s;
   }
-  
   .fixed-menu .menu-bar a {
     color: #7F7F7F !important;
   }
-  
   @keyframes slide-down {
     0% {
       transform: translateY(-100%);
@@ -286,7 +253,6 @@
       transform: translateY(0);
     }
   }
-  
   @keyframes slide {
     0% {
       opacity: 0;
@@ -298,18 +264,15 @@
       transform: translateY(0);
     }
   }
-  
   /*==== sticky-nev end=== */
   .sub-title {
     color: var(--orange);
     font: 600 18px Poppins;
   }
-  
   .sub-title2 {
     color: var(--orange);
     font: 700 18px Poppins;
   }
-  
   .title {
     color: #181E4B;
     font: 700 50px Volkhov;
@@ -348,14 +311,12 @@
   .hero-area {
     background: url(image/hero.png) center / cover no-repeat;
   }
-  
   .hero-wrapper {
     min-height: 976px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 70px;
-  
     .hero-title {
       h2 {
         color: #FFF;
@@ -365,7 +326,6 @@
         line-height: 1.3;
         position: relative;
       }
-  
       h2:before {
         content: "";
         position: absolute;
@@ -376,7 +336,6 @@
       }
     }
   }
-  
   .heroBtn-wrap {
     padding: 22px 33px;
     border-radius: 5.224px;
@@ -387,7 +346,7 @@
     max-width: 844px;
     align-items: center;
     margin-bottom: 28px;
-  
+
     .heroBtn-item {
       text-align: center;
   
@@ -401,7 +360,6 @@
         box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
         border: none;
       }
-  
       select {
         color: #FFF;
         font-size: 19px;
@@ -409,9 +367,11 @@
         background: transparent;
         border: navajowhite;
         outline: none;
-  
+        padding: 10px;
         option {
           color: var(--black2);
+          background-color: #b8c0c6;
+
         }
       }
   
@@ -600,47 +560,45 @@
   gap: 122px;
 }
 
-/* resort-area */
+/* resort booking ariya  */
 .resort-area {
   overflow: hidden;
   margin-top: -50px;
   margin: 3rem auto;
   max-width: 1500px;
-  margin: 0 auto;
   padding: 2rem;
 }
 
 .resort-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   padding-top: 46px;
   gap: 2rem;
   margin: 0 auto;
   padding: 0 3rem;
-
 }
 
 .resort-content {
   display: grid;
-  grid-template-columns: .1fr 1fr;
+  grid-template-columns: 0.1fr 1fr;
   gap: 50px 20px;
   max-width: 392px;
   width: 100%;
   align-items: center;
   margin-top: 31px;
+}
 
-  h4 {
-    color: var(--gray2);
-    font-size: 16px;
-    font-weight: 700;
-  }
+.resort-content h4 {
+  color: var(--gray2);
+  font-size: 16px;
+  font-weight: 700;
+}
 
-  p {
-    color: var(--gray2);
-    font-size: 16px;
-    font-weight: 400;
-  }
+.resort-content p {
+  color: var(--gray2);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .resort-cart {
@@ -651,98 +609,6 @@
   background: var(--white);
   box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
   position: relative;
-
-  h4 {
-    color: var(--black);
-    font-size: 18px;
-    font-weight: 500;
-    margin: 26px 0 12px;
-  }
-
-  p {
-    color: var(--gray3);
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .resort-thump {
-    margin: 21px 0;
-
-    img {
-      margin-right: 18px;
-    }
-  }
-
-  .resort-people {
-    display: grid;
-    grid-template-columns: .3fr 2fr .5fr;
-
-    a:last-child {
-      text-align: right;
-    }
-  }
-
-}
-
-.resort-right {
-  position: relative;
-  z-index: 0;
-  margin-left: 200px;
-}
-
-.resort-right:before {
-  content: "";
-  background: url(image/resort0.png) no-repeat;
-  background-position: 38% 0%;
-  background-size: cover;
-  width: 469px;
-  height: 600px;
-  position: absolute;
-  bottom: -86px;
-  left: -129px;
-  z-index: -1;
-}
-
-.resort-right:after {
-  content: "";
-  background: url(image/resort.png) center/cover no-repeat;
-  width: 315px;
-  height: 362px;
-  position: absolute;
-  top: -153px;
-  right: -259px;
-  top: -37%;
-  right: -57%;
-  z-index: -2;
-}
-
-.resort-trip {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  position: absolute;
-  background: var(--white);
-  max-width: 264px;
-  width: 100%;
-  padding: 16px;
-  right: -29%;
-  bottom: 12%;
-  border-radius: 18px;
-  box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.04);
-
-  h4 {
-    margin: 8px 0 14px;
-  }
-
-  h5 {
-    color: var(--black);
-    font-size: 14px;
-    font-weight: 500;
-
-    span {
-      color: var(--orange)
-    }
-  }
 }
 
 /* -----------------------holiday-area------------------------  */

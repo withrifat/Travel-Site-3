@@ -129,100 +129,42 @@
 			width: 50%;
 		}
 /* resort ariya */
-@media (max-width: 1200px) {
-	.resort-wrapper {
-	  padding: 0 2rem;
-	  gap: 2rem;
-	}
-  
-	.resort-right {
-	  margin-left: 100px;
-	}
-  
-	.resort-right:before {
-	  width: 350px;
-	  height: 450px;
-	  left: -100px;
-	  bottom: -50px;
-	}
-  
-	.resort-right:after {
-	  width: 250px;
-	  height: 300px;
-	  top: -30%;
-	  right: -50%;
-	}
-  
-	.resort-trip {
-	  right: -25%;
-	  bottom: 10%;
-	}
-  }
-  
-  @media (max-width: 992px) {
+@media (max-width: 1024px) {
 	.resort-wrapper {
 	  flex-direction: column;
-	  align-items: center;
-	  padding: 0 1.5rem;
-	  gap: 2rem;
-	}
-  
-	.resort-right {
-	  margin-left: 0;
-	  width: 100%;
-	  text-align: center;
-	}
-  
-	.resort-right:before,
-	.resort-right:after {
-	  display: none;
-	}
-  
-	.resort-trip {
-	  position: static;
-	  margin: 1rem auto;
-	}
-  
-	.resort-cart {
-	  max-width: 100%;
+	  padding: 0 2rem;
 	}
   
 	.resort-content {
 	  grid-template-columns: 1fr;
+	  gap: 1rem;
 	  max-width: 100%;
-	  gap: 1.5rem;
-	  text-align: center;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.resort-wrapper {
-	  padding: 0 1rem;
-	}
-  
-	.resort-trip {
-	  padding: 1rem;
-	  max-width: 100%;
-	  flex-direction: column;
-	  align-items: center;
 	  text-align: center;
 	}
   
 	.resort-cart {
-	  padding: 1.5rem;
+	  max-width: 100%;
+	}
+  }
+  
+  @media (max-width: 600px) {
+	.resort-area {
+	  padding: 1.5rem 1rem;
+	}
+  
+	.resort-wrapper {
+	  gap: 1.5rem;
+	  padding: 0 1rem;
 	}
   
 	.resort-content h4,
 	.resort-content p {
-	  font-size: 15px;
+	  font-size: 14px;
 	}
   
-	.resort-cart h4 {
-	  font-size: 17px;
-	}
-  
-	.resort-cart p {
-	  font-size: 15px;
+	.resort-cart {
+	  padding: 16px 18px;
+	  border-radius: 18px;
 	}
   }
   
