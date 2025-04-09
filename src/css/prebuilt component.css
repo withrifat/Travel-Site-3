@@ -2,8 +2,8 @@
 
 /* Basic code for css */
 ::selection {
-    background: var(--yellow-dark);
-    color: var(--white);
+    background: var(--light);
+    color: var(--orange);
   }
   :root {
     /* font family */
@@ -19,9 +19,70 @@
     --fw-400: 400;
     --fw-700: 700;
   }
-  .container{
-    max-width: 1400px;
-    margin: o auto;
+  /* hover effect */
+  span{
+    transition: all 0.3s ease;
+  }
+  span:hover{
+    transform: translateY(-2px);
+  }
+  a{
+    transition: all 0.3s ease;
+  }
+  a:hover{
+    transform: translateY(-2px);
+  }
+  /* p{
+    transition: all 0.3s ease;
+  }
+  p:hover{
+    transform: translateY(-2px);
+  } */
+  h1{
+    transition: all 0.3s ease;
+  }
+  h1:hover{
+    transform: translateY(-2px);
+  }
+  h4{
+    transition: all 0.3s ease;
+  }
+  h4:hover{
+    transform: translateY(-2px);
+  }
+  button{
+    transition: all 0.3s ease;
+  }
+  button:hover{
+    transform: translateY(-2px);
+  }
+  img{
+    transition: all 0.3s ease;
+  }
+  img:hover{
+    transform: translateY(-2px);
+  }
+  .hover {
+    transition: all 0.3s ease;
+  }
+  
+  .hover:hover {
+    transform: translateY(-2px);
+
+  }
+  .hoverd {
+    transition: all 0.3s ease;
+  }
+  
+  .hoverd:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
   .vol_h1{
     color: var(--black);
@@ -181,8 +242,7 @@ button,
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
-
-button,
+utton,
 input,
 optgroup,
 select,

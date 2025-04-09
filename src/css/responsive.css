@@ -15,7 +15,6 @@
 	.brand-wrapper {
 		gap: 43px;
 	}
-
 	/* resort  */
 	.resort-right::after {
 		width: 260px;
@@ -26,11 +25,24 @@
 		right: -39%;
 	}
 }
-
+/* Our Travel partner */
+@media (max-width: 768px) {
+	.travel img {
+	  max-width: 120px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.travel {
+	  gap: 1rem;
+	}
+  
+	.travel img {
+	  max-width: 100px;
+	}
+  }
 /* FOR-LG-START */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
-	/* honymoon  */
 	/* honymoon  */
 	.honymoon-area {
 		margin: 30px 0 80px;
@@ -116,7 +128,104 @@
 		.honymoon-right {
 			width: 50%;
 		}
-
+/* resort ariya */
+@media (max-width: 1200px) {
+	.resort-wrapper {
+	  padding: 0 2rem;
+	  gap: 2rem;
+	}
+  
+	.resort-right {
+	  margin-left: 100px;
+	}
+  
+	.resort-right:before {
+	  width: 350px;
+	  height: 450px;
+	  left: -100px;
+	  bottom: -50px;
+	}
+  
+	.resort-right:after {
+	  width: 250px;
+	  height: 300px;
+	  top: -30%;
+	  right: -50%;
+	}
+  
+	.resort-trip {
+	  right: -25%;
+	  bottom: 10%;
+	}
+  }
+  
+  @media (max-width: 992px) {
+	.resort-wrapper {
+	  flex-direction: column;
+	  align-items: center;
+	  padding: 0 1.5rem;
+	  gap: 2rem;
+	}
+  
+	.resort-right {
+	  margin-left: 0;
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	.resort-right:before,
+	.resort-right:after {
+	  display: none;
+	}
+  
+	.resort-trip {
+	  position: static;
+	  margin: 1rem auto;
+	}
+  
+	.resort-cart {
+	  max-width: 100%;
+	}
+  
+	.resort-content {
+	  grid-template-columns: 1fr;
+	  max-width: 100%;
+	  gap: 1.5rem;
+	  text-align: center;
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.resort-wrapper {
+	  padding: 0 1rem;
+	}
+  
+	.resort-trip {
+	  padding: 1rem;
+	  max-width: 100%;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	}
+  
+	.resort-cart {
+	  padding: 1.5rem;
+	}
+  
+	.resort-content h4,
+	.resort-content p {
+	  font-size: 15px;
+	}
+  
+	.resort-cart h4 {
+	  font-size: 17px;
+	}
+  
+	.resort-cart p {
+	  font-size: 15px;
+	}
+  }
+  
 		/* brand  */
 
 		/* hero  */
@@ -845,8 +954,18 @@
       margin-top: 0.5rem;
     }
   }
-  
+  @media (max-width: 768px) {
+	button {
+	  display: block;
+	  margin: 20px auto;
+	  text-align: center;
+	}
+  }
   @media (max-width: 480px) {
+	button{
+		align-items: center;
+
+	}
     .footer_widget .fws img {
       width: 7rem;
     }
